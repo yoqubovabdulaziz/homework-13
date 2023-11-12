@@ -1,0 +1,98 @@
+/* ONE STOP SECTION START */
+
+#one-stop {
+    /* width: 1440px; */
+    /* height: 1072px; */
+    background-image: url(../images/one-stop-bacground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fire-one-stop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 136px;
+    margin-bottom: 22px;
+    gap: 8px;
+}
+
+.fire-one-stop h4 {
+    color: #57B8FF;
+    font-family: orbitron-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.one-stop-text {
+    text-align: center;
+}
+
+.one-stop-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: orbitron-regular;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+    margin-bottom: 39px;
+}
+
+.one-stop-text p {
+    color: rgba(223, 223, 223, 0.80);
+    text-align: center;
+    font-family: orbitron-regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.one-stop-box {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 60.58px;
+    padding-bottom: 70px;
+}
+
+.one-stop-card {
+    max-width: 642px;
+    height: 212px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding-right: 30px;
+}
+
+.card-img {
+    display: flex;
+    padding-left: 38.37px;
+    padding-top: 35px;
+    gap: 17px;
+}
+
+.card-img h3 {
+    color: #FFF;
+    font-family: orbitron-regular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+
+.one-stop-card p {
+    color: rgba(223, 223, 223, 0.80);
+    font-family: orbitron-regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 87.71px;
+    padding-top: 19px;
+}
+
+
+/* ONE STOP SECTION END */

@@ -1,0 +1,87 @@
+/* SMOOTH-SECTION START */
+
+#smooth {
+    background: #000;
+}
+
+.light #smooth {
+    background-color: var(--primary-color);
+}
+
+.img-row {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.img-1 {
+    padding: 257px 90px 259px 90px;
+    background: url(../images/smooth.png) no-repeat center;
+    background-size: 600px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.img-2 {
+    padding: 257px 90px 259px 90px;
+    background: url(../images/multiplayer.png) no-repeat center;
+    background-size: 600px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.img-3 {
+    padding: 257px 90px 259px 90px;
+    background: url(../images/open-world.png) no-repeat center;
+    background-size: 600px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover {
+    background-size: 700px;
+}
+
+.img-1 h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+
+.img-2 h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+
+.img-3 h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+ 
+.img-2 img,
+.img-3 img {
+    padding-bottom: 20px;
+}
+
+
+
+
+/* SMOOTH SECTION END */

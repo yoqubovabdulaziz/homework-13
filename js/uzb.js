@@ -28,19 +28,11 @@ function toggleBacktop() {
 
 const loading = document.getElementById("loading");
 
-const loadingDuration = 2300; // 1s
+const loadingDuration = 800; // 1s
 
 setTimeout(() => {
   loading.classList.add('loading-none');
 }, loadingDuration);
-
-const animation = document.getElementById("animation");
-
-const animationDuration = 2000; // 1s
-
-setTimeout(() => {
-  animation.classList.add('animation-none');
-}, animationDuration);
 
 function openNavbar() {
   document.getElementById("navbar-responsive").style.left = "-60%";

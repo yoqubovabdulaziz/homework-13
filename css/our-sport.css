@@ -1,0 +1,42 @@
+/* OUR SPORT START */
+
+#our-sport {
+    background: #FDD04A;
+    background-color: #141820;
+}
+
+.light #our-sport {
+    background-color: #FDD04A;
+}
+
+#our-sport h3 {
+    color: white;
+    text-align: center;
+    font-family: orbitron-regular;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: capitalize;
+    padding-top: 128px;
+}
+
+#our-sport p {
+    color: white;
+    text-align: center;
+    font-family: orbitron-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 41px;
+    margin-top: 44px;
+}
+
+.our-sport-row {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 130px;
+}
+
+
+/* OUR SPORT END */

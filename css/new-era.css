@@ -1,0 +1,74 @@
+/* NEW ERA SECTION START */
+
+.light #new-era {
+    background-color: var(--primary-color);
+}
+
+#new-era {
+    background-color: #141820;
+    padding-top: 86px;
+}
+
+.fire-new-era {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fire-new-era h4 {
+    color: #57B8FF;
+    font-family: orbitron-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.new-era-left h1 {
+    max-width: 684px;
+    color: #FFF;
+    font-family: orbitron-regular;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.new-era-left p {
+    max-width: 721px;
+    color: rgba(223, 223, 223, 0.80);
+    font-family: orbitron-regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 38px;
+}
+
+.new-era-left button {
+    width: 203px;
+    height: 70px;
+    color: #FFF;
+    font-family: orbitron-regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: transparent;
+    border: none;
+    margin-top: 54px;
+    margin-bottom: 123.81px;
+}
+
+.new-era-left button:hover {
+    background-color: var(--primary-color);
+}
+
+.light .new-era-left button:hover {
+    background-color: var(--secondary-color);
+}
+
+.right-left {
+    display: flex;
+}
+
+/* NEW ERA SECTION END */
